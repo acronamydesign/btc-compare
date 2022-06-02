@@ -1,0 +1,5 @@
+get a coin
+get its btc quote
+get its gbp quote
+get the btc quote worth in gbp
+rank using a database
