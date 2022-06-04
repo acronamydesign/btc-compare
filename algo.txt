@@ -1,5 +1,5 @@
 get a coin
-get its doge quote
+get its btc quote
 get its gbp quote
-get the doge quote worth in gbp
+get the btc quote worth in gbp
 rank using a database
