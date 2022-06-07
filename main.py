@@ -10,7 +10,7 @@ if __name__ == '__main__':
     print(currencies)
     for coin in currencies:
         btc = miner.convert_to_btc(coin)
-        coin_rate = miner.to_gbp(coin)
+        coin_rate = miner.from_gbp(coin)
         btc_worth = miner.btc_to_gbp_quote(btc)
         profit = float(btc_worth) - float(coin_rate)
         db.insert_quote(coin, coin_rate, btc, btc_worth, profit)
